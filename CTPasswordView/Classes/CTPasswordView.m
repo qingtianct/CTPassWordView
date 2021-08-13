@@ -166,7 +166,7 @@
         UIButton *button = [[UIButton alloc] init];
         
         NSString *bundlePath = [[NSBundle bundleForClass:[self class]].resourcePath
-                                stringByAppendingPathComponent:@"/CTPasswordBundle.bundle"];
+                                stringByAppendingPathComponent:@"/CTPassword.bundle"];
         NSBundle *resource_bundle = [NSBundle bundleWithPath:bundlePath];
         UIImage *image = [UIImage imageNamed:@"payment_shutdown"
                                     inBundle:resource_bundle
