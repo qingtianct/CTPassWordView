@@ -6,8 +6,8 @@
 //
 
 #import "PageVC2.h"
-#import "CTPasswordView.h"
-#import "CTPasswordViewTypeDefine.h"
+#import <CTPasswordView/CTPasswordView.h>
+#import <CTPasswordView/CTPasswordViewTypeDefine.h>
 @interface PageVC2 ()<CTPasswordViewDelegate>
 @property(nonatomic,strong)CTPasswordView * pwView;
 @property(nonatomic,strong)UILabel * titleL;

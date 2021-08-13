@@ -187,6 +187,7 @@
 				60C5206826C5080A00C25DAB /* Sources */,
 				60C5206926C5080A00C25DAB /* Frameworks */,
 				60C5206A26C5080A00C25DAB /* Resources */,
+				D4CF7A79D6DBF3AB99504D3E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,6 +243,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		D4CF7A79D6DBF3AB99504D3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CYPWDDemo/Pods-CYPWDDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CYPWDDemo/Pods-CYPWDDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CYPWDDemo/Pods-CYPWDDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E9375D34F5153E1A98EC297E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
