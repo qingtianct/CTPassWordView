@@ -16,14 +16,13 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/qingtianct/CTPassWordView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'qingtianct' => '1295890900@qq.com' }
-  s.source           = { :git => 'https://github.com/qingtianct/CTPassWordView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/qingtianct/CTPassWordView', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
- # s.source_files = 'CTPasswordView/Classes/*.{h,m}','CTPasswordView/Classes/**/*.{h,m}'
-  s.resource = 'CTPasswordView/CTPassword.bundle'
- # s.resource = ['CTPasswordView/CTPassword.bundle','CTPasswordView/*.xcassets']
-# s.resource_bundles = {
-      'CTPasswordBundle' => ['CTPasswordView/Assets/*.png']
+  s.source_files = 'CTPasswordView/*','CTPasswordView/Classes/*.{h,m}','CTPasswordView/Classes/**/*.{h,m}'
+  s.resource = ['Resources/CTPassword.bundle','CTPasswordView/Assets/*.xcassets']
+   s.resource_bundles = {
+      'CTPasswordBundle' => ['CTPasswordView/Assets/*.xcassets']
    }
 
   s.public_header_files = 'Pod/Classes/*.h','Pod/Classes/**/*.h'
