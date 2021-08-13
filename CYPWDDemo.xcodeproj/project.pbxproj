@@ -23,6 +23,23 @@
 		188ED02EC562D8877BEEABE6 /* Pods-CYPWDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYPWDDemo.debug.xcconfig"; path = "Target Support Files/Pods-CYPWDDemo/Pods-CYPWDDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		2F32C78EAA781968E19935E5 /* Pods-CYPWDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYPWDDemo.release.xcconfig"; path = "Target Support Files/Pods-CYPWDDemo/Pods-CYPWDDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4578D499A20C08BF986C9738 /* Pods_CYPWDDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYPWDDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6062168426C6118D00E9CEC6 /* UIView+CTPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CTPasswordView.m"; sourceTree = "<group>"; };
+		6062168526C6118D00E9CEC6 /* UIImage+CTPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CTPasswordView.m"; sourceTree = "<group>"; };
+		6062168626C6118D00E9CEC6 /* UIColor+CTPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CTPasswordView.m"; sourceTree = "<group>"; };
+		6062168726C6118D00E9CEC6 /* UIView+CTPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CTPasswordView.h"; sourceTree = "<group>"; };
+		6062168826C6118D00E9CEC6 /* UIImage+CTPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CTPasswordView.h"; sourceTree = "<group>"; };
+		6062168926C6118D00E9CEC6 /* UIColor+CTPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CTPasswordView.h"; sourceTree = "<group>"; };
+		6062168A26C6118D00E9CEC6 /* CTPasswordInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTPasswordInputView.m; sourceTree = "<group>"; };
+		6062168B26C6118D00E9CEC6 /* CTRandomKeyBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTRandomKeyBoard.h; sourceTree = "<group>"; };
+		6062168C26C6118D00E9CEC6 /* CTPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTPasswordView.m; sourceTree = "<group>"; };
+		6062168D26C6118D00E9CEC6 /* CTPasswordInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTPasswordInputView.h; sourceTree = "<group>"; };
+		6062168E26C6118D00E9CEC6 /* CTRandomKeyBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTRandomKeyBoard.m; sourceTree = "<group>"; };
+		6062168F26C6118D00E9CEC6 /* CTPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTPasswordView.h; sourceTree = "<group>"; };
+		6062169026C6118D00E9CEC6 /* CTPasswordViewTypeDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTPasswordViewTypeDefine.h; sourceTree = "<group>"; };
+		6062169226C6118D00E9CEC6 /* CTPasswordAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CTPasswordAsset.xcassets; sourceTree = "<group>"; };
+		6062169326C6118D00E9CEC6 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		6062169426C6118D00E9CEC6 /* CTPassword.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CTPassword.bundle; sourceTree = "<group>"; };
+		6062169526C6118D00E9CEC6 /* CTPasswordView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CTPasswordView.podspec; sourceTree = "<group>"; };
 		60C5206C26C5080A00C25DAB /* CYPWDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYPWDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C5206F26C5080A00C25DAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60C5207026C5080A00C25DAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,23 +52,6 @@
 		60C5207E26C5080D00C25DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60C5208026C5080D00C25DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60C5208126C5080D00C25DAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		60C5208926C508BF00C25DAB /* CTPasswordView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CTPasswordView.podspec; sourceTree = "<group>"; };
-		60C5209C26C508BF00C25DAB /* CTPasswordAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CTPasswordAsset.xcassets; sourceTree = "<group>"; };
-		60C5209D26C508BF00C25DAB /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		60C5209E26C508BF00C25DAB /* CTPassword.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CTPassword.bundle; sourceTree = "<group>"; };
-		60C5209F26C50A2B00C25DAB /* CTRandomKeyBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTRandomKeyBoard.h; sourceTree = "<group>"; };
-		60C520A026C50A2B00C25DAB /* CTRandomKeyBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTRandomKeyBoard.m; sourceTree = "<group>"; };
-		60C520A226C50A6E00C25DAB /* UIView+CTPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CTPasswordView.h"; sourceTree = "<group>"; };
-		60C520A326C50A6E00C25DAB /* UIView+CTPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CTPasswordView.m"; sourceTree = "<group>"; };
-		60C520A526C50C9D00C25DAB /* CTPasswordViewTypeDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTPasswordViewTypeDefine.h; sourceTree = "<group>"; };
-		60C520A626C50CE500C25DAB /* CTPasswordInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTPasswordInputView.h; sourceTree = "<group>"; };
-		60C520A726C50CE500C25DAB /* CTPasswordInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTPasswordInputView.m; sourceTree = "<group>"; };
-		60C520A826C50D8300C25DAB /* UIImage+CTPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CTPasswordView.h"; sourceTree = "<group>"; };
-		60C520A926C50D8300C25DAB /* UIImage+CTPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CTPasswordView.m"; sourceTree = "<group>"; };
-		60C520AB26C50F1300C25DAB /* UIColor+CTPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CTPasswordView.h"; sourceTree = "<group>"; };
-		60C520AC26C50F1300C25DAB /* UIColor+CTPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CTPasswordView.m"; sourceTree = "<group>"; };
-		60C520AE26C50F7000C25DAB /* CTPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTPasswordView.h; sourceTree = "<group>"; };
-		60C520AF26C50F7000C25DAB /* CTPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTPasswordView.m; sourceTree = "<group>"; };
 		60C520B126C51DA500C25DAB /* PageVC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageVC1.h; sourceTree = "<group>"; };
 		60C520B226C51DA500C25DAB /* PageVC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageVC1.m; sourceTree = "<group>"; };
 		60C520B426C51DB500C25DAB /* PageVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageVC2.h; sourceTree = "<group>"; };
@@ -87,10 +87,58 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6062168126C6118D00E9CEC6 /* CTPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				6062168226C6118D00E9CEC6 /* Classes */,
+				6062169126C6118D00E9CEC6 /* Assets */,
+			);
+			path = CTPasswordView;
+			sourceTree = "<group>";
+		};
+		6062168226C6118D00E9CEC6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6062168326C6118D00E9CEC6 /* Category */,
+				6062168A26C6118D00E9CEC6 /* CTPasswordInputView.m */,
+				6062168B26C6118D00E9CEC6 /* CTRandomKeyBoard.h */,
+				6062168C26C6118D00E9CEC6 /* CTPasswordView.m */,
+				6062168D26C6118D00E9CEC6 /* CTPasswordInputView.h */,
+				6062168E26C6118D00E9CEC6 /* CTRandomKeyBoard.m */,
+				6062168F26C6118D00E9CEC6 /* CTPasswordView.h */,
+				6062169026C6118D00E9CEC6 /* CTPasswordViewTypeDefine.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6062168326C6118D00E9CEC6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6062168426C6118D00E9CEC6 /* UIView+CTPasswordView.m */,
+				6062168526C6118D00E9CEC6 /* UIImage+CTPasswordView.m */,
+				6062168626C6118D00E9CEC6 /* UIColor+CTPasswordView.m */,
+				6062168726C6118D00E9CEC6 /* UIView+CTPasswordView.h */,
+				6062168826C6118D00E9CEC6 /* UIImage+CTPasswordView.h */,
+				6062168926C6118D00E9CEC6 /* UIColor+CTPasswordView.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6062169126C6118D00E9CEC6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6062169226C6118D00E9CEC6 /* CTPasswordAsset.xcassets */,
+				6062169326C6118D00E9CEC6 /* .gitkeep */,
+				6062169426C6118D00E9CEC6 /* CTPassword.bundle */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		60C5206326C5080A00C25DAB = {
 			isa = PBXGroup;
 			children = (
-				60C5208826C508BF00C25DAB /* CTPassword */,
+				6062168126C6118D00E9CEC6 /* CTPasswordView */,
+				6062169526C6118D00E9CEC6 /* CTPasswordView.podspec */,
 				60C5206E26C5080A00C25DAB /* CYPWDDemo */,
 				60C5206D26C5080A00C25DAB /* Products */,
 				3E303AEF047243B5F36246BD /* Pods */,
@@ -126,62 +174,6 @@
 				60C520B526C51DB500C25DAB /* PageVC2.m */,
 			);
 			path = CYPWDDemo;
-			sourceTree = "<group>";
-		};
-		60C5208826C508BF00C25DAB /* CTPassword */ = {
-			isa = PBXGroup;
-			children = (
-				60C5208926C508BF00C25DAB /* CTPasswordView.podspec */,
-				60C5208A26C508BF00C25DAB /* CTPasswordView */,
-			);
-			path = CTPassword;
-			sourceTree = "<group>";
-		};
-		60C5208A26C508BF00C25DAB /* CTPasswordView */ = {
-			isa = PBXGroup;
-			children = (
-				60C5208B26C508BF00C25DAB /* Classes */,
-				60C5209B26C508BF00C25DAB /* Assets */,
-			);
-			path = CTPasswordView;
-			sourceTree = "<group>";
-		};
-		60C5208B26C508BF00C25DAB /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				60C520A526C50C9D00C25DAB /* CTPasswordViewTypeDefine.h */,
-				60C5208C26C508BF00C25DAB /* Category */,
-				60C5209F26C50A2B00C25DAB /* CTRandomKeyBoard.h */,
-				60C520A026C50A2B00C25DAB /* CTRandomKeyBoard.m */,
-				60C520A626C50CE500C25DAB /* CTPasswordInputView.h */,
-				60C520A726C50CE500C25DAB /* CTPasswordInputView.m */,
-				60C520AE26C50F7000C25DAB /* CTPasswordView.h */,
-				60C520AF26C50F7000C25DAB /* CTPasswordView.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		60C5208C26C508BF00C25DAB /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				60C520A226C50A6E00C25DAB /* UIView+CTPasswordView.h */,
-				60C520A326C50A6E00C25DAB /* UIView+CTPasswordView.m */,
-				60C520A826C50D8300C25DAB /* UIImage+CTPasswordView.h */,
-				60C520A926C50D8300C25DAB /* UIImage+CTPasswordView.m */,
-				60C520AB26C50F1300C25DAB /* UIColor+CTPasswordView.h */,
-				60C520AC26C50F1300C25DAB /* UIColor+CTPasswordView.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		60C5209B26C508BF00C25DAB /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				60C5209C26C508BF00C25DAB /* CTPasswordAsset.xcassets */,
-				60C5209D26C508BF00C25DAB /* .gitkeep */,
-				60C5209E26C508BF00C25DAB /* CTPassword.bundle */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

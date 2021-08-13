@@ -6,5 +6,5 @@ target 'CYPWDDemo' do
   use_frameworks!
 
   # Pods for CYPWDDemo
-  pod 'CTPasswordView', :path => "./CTPassword"
+  pod 'CTPasswordView', :path => "./"
 end
