@@ -7,5 +7,5 @@ target 'CYPWDDemo' do
 
   # Pods for CYPWDDemo
 #  pod 'CTPasswordView', :path => "./"
-pod 'CTPasswordView',"1.0.2"
+pod 'CTPasswordView',"1.0.4"
 end
