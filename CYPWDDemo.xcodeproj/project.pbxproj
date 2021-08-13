@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60C5207126C5080A00C25DAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5207026C5080A00C25DAB /* AppDelegate.m */; };
+		60C5207426C5080A00C25DAB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5207326C5080A00C25DAB /* SceneDelegate.m */; };
+		60C5207726C5080A00C25DAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5207626C5080A00C25DAB /* ViewController.m */; };
+		60C5207A26C5080A00C25DAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C5207826C5080A00C25DAB /* Main.storyboard */; };
+		60C5207C26C5080D00C25DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C5207B26C5080D00C25DAB /* Assets.xcassets */; };
+		60C5207F26C5080D00C25DAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C5207D26C5080D00C25DAB /* LaunchScreen.storyboard */; };
+		60C5208226C5080D00C25DAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5208126C5080D00C25DAB /* main.m */; };
+		60C520B326C51DA500C25DAB /* PageVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C520B226C51DA500C25DAB /* PageVC1.m */; };
+		60C520B626C51DB500C25DAB /* PageVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C520B526C51DB500C25DAB /* PageVC2.m */; };
+		B471499149594B416E1D4330 /* Pods_CYPWDDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4578D499A20C08BF986C9738 /* Pods_CYPWDDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188ED02EC562D8877BEEABE6 /* Pods-CYPWDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYPWDDemo.debug.xcconfig"; path = "Target Support Files/Pods-CYPWDDemo/Pods-CYPWDDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2F32C78EAA781968E19935E5 /* Pods-CYPWDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYPWDDemo.release.xcconfig"; path = "Target Support Files/Pods-CYPWDDemo/Pods-CYPWDDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4578D499A20C08BF986C9738 /* Pods_CYPWDDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYPWDDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C5206C26C5080A00C25DAB /* CYPWDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYPWDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C5206F26C5080A00C25DAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60C5207026C5080A00C25DAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60C5207226C5080A00C25DAB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		60C5207326C5080A00C25DAB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		60C5207526C5080A00C25DAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60C5207626C5080A00C25DAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60C5207926C5080A00C25DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60C5207B26C5080D00C25DAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60C5207E26C5080D00C25DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60C5208026C5080D00C25DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C5208126C5080D00C25DAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60C5208926C508BF00C25DAB /* CTPasswordView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CTPasswordView.podspec; sourceTree = "<group>"; };
+		60C5209C26C508BF00C25DAB /* CTPasswordAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CTPasswordAsset.xcassets; sourceTree = "<group>"; };
+		60C5209D26C508BF00C25DAB /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		60C5209E26C508BF00C25DAB /* CTPassword.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CTPassword.bundle; sourceTree = "<group>"; };
+		60C5209F26C50A2B00C25DAB /* CTRandomKeyBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTRandomKeyBoard.h; sourceTree = "<group>"; };
+		60C520A026C50A2B00C25DAB /* CTRandomKeyBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTRandomKeyBoard.m; sourceTree = "<group>"; };
+		60C520A226C50A6E00C25DAB /* UIView+CTPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CTPasswordView.h"; sourceTree = "<group>"; };
+		60C520A326C50A6E00C25DAB /* UIView+CTPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CTPasswordView.m"; sourceTree = "<group>"; };
+		60C520A526C50C9D00C25DAB /* CTPasswordViewTypeDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTPasswordViewTypeDefine.h; sourceTree = "<group>"; };
+		60C520A626C50CE500C25DAB /* CTPasswordInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTPasswordInputView.h; sourceTree = "<group>"; };
+		60C520A726C50CE500C25DAB /* CTPasswordInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTPasswordInputView.m; sourceTree = "<group>"; };
+		60C520A826C50D8300C25DAB /* UIImage+CTPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CTPasswordView.h"; sourceTree = "<group>"; };
+		60C520A926C50D8300C25DAB /* UIImage+CTPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CTPasswordView.m"; sourceTree = "<group>"; };
+		60C520AB26C50F1300C25DAB /* UIColor+CTPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CTPasswordView.h"; sourceTree = "<group>"; };
+		60C520AC26C50F1300C25DAB /* UIColor+CTPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CTPasswordView.m"; sourceTree = "<group>"; };
+		60C520AE26C50F7000C25DAB /* CTPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTPasswordView.h; sourceTree = "<group>"; };
+		60C520AF26C50F7000C25DAB /* CTPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTPasswordView.m; sourceTree = "<group>"; };
+		60C520B126C51DA500C25DAB /* PageVC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageVC1.h; sourceTree = "<group>"; };
+		60C520B226C51DA500C25DAB /* PageVC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageVC1.m; sourceTree = "<group>"; };
+		60C520B426C51DB500C25DAB /* PageVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageVC2.h; sourceTree = "<group>"; };
+		60C520B526C51DB500C25DAB /* PageVC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageVC2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C5206926C5080A00C25DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B471499149594B416E1D4330 /* Pods_CYPWDDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E303AEF047243B5F36246BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				188ED02EC562D8877BEEABE6 /* Pods-CYPWDDemo.debug.xcconfig */,
+				2F32C78EAA781968E19935E5 /* Pods-CYPWDDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		42415FE044CBADC15074C2E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4578D499A20C08BF986C9738 /* Pods_CYPWDDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60C5206326C5080A00C25DAB = {
+			isa = PBXGroup;
+			children = (
+				60C5208826C508BF00C25DAB /* CTPassword */,
+				60C5206E26C5080A00C25DAB /* CYPWDDemo */,
+				60C5206D26C5080A00C25DAB /* Products */,
+				3E303AEF047243B5F36246BD /* Pods */,
+				42415FE044CBADC15074C2E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60C5206D26C5080A00C25DAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C5206C26C5080A00C25DAB /* CYPWDDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60C5206E26C5080A00C25DAB /* CYPWDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				60C5206F26C5080A00C25DAB /* AppDelegate.h */,
+				60C5207026C5080A00C25DAB /* AppDelegate.m */,
+				60C5207226C5080A00C25DAB /* SceneDelegate.h */,
+				60C5207326C5080A00C25DAB /* SceneDelegate.m */,
+				60C5207526C5080A00C25DAB /* ViewController.h */,
+				60C5207626C5080A00C25DAB /* ViewController.m */,
+				60C5207826C5080A00C25DAB /* Main.storyboard */,
+				60C5207B26C5080D00C25DAB /* Assets.xcassets */,
+				60C5207D26C5080D00C25DAB /* LaunchScreen.storyboard */,
+				60C5208026C5080D00C25DAB /* Info.plist */,
+				60C5208126C5080D00C25DAB /* main.m */,
+				60C520B126C51DA500C25DAB /* PageVC1.h */,
+				60C520B226C51DA500C25DAB /* PageVC1.m */,
+				60C520B426C51DB500C25DAB /* PageVC2.h */,
+				60C520B526C51DB500C25DAB /* PageVC2.m */,
+			);
+			path = CYPWDDemo;
+			sourceTree = "<group>";
+		};
+		60C5208826C508BF00C25DAB /* CTPassword */ = {
+			isa = PBXGroup;
+			children = (
+				60C5208926C508BF00C25DAB /* CTPasswordView.podspec */,
+				60C5208A26C508BF00C25DAB /* CTPasswordView */,
+			);
+			path = CTPassword;
+			sourceTree = "<group>";
+		};
+		60C5208A26C508BF00C25DAB /* CTPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				60C5208B26C508BF00C25DAB /* Classes */,
+				60C5209B26C508BF00C25DAB /* Assets */,
+			);
+			path = CTPasswordView;
+			sourceTree = "<group>";
+		};
+		60C5208B26C508BF00C25DAB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				60C520A526C50C9D00C25DAB /* CTPasswordViewTypeDefine.h */,
+				60C5208C26C508BF00C25DAB /* Category */,
+				60C5209F26C50A2B00C25DAB /* CTRandomKeyBoard.h */,
+				60C520A026C50A2B00C25DAB /* CTRandomKeyBoard.m */,
+				60C520A626C50CE500C25DAB /* CTPasswordInputView.h */,
+				60C520A726C50CE500C25DAB /* CTPasswordInputView.m */,
+				60C520AE26C50F7000C25DAB /* CTPasswordView.h */,
+				60C520AF26C50F7000C25DAB /* CTPasswordView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		60C5208C26C508BF00C25DAB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				60C520A226C50A6E00C25DAB /* UIView+CTPasswordView.h */,
+				60C520A326C50A6E00C25DAB /* UIView+CTPasswordView.m */,
+				60C520A826C50D8300C25DAB /* UIImage+CTPasswordView.h */,
+				60C520A926C50D8300C25DAB /* UIImage+CTPasswordView.m */,
+				60C520AB26C50F1300C25DAB /* UIColor+CTPasswordView.h */,
+				60C520AC26C50F1300C25DAB /* UIColor+CTPasswordView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		60C5209B26C508BF00C25DAB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				60C5209C26C508BF00C25DAB /* CTPasswordAsset.xcassets */,
+				60C5209D26C508BF00C25DAB /* .gitkeep */,
+				60C5209E26C508BF00C25DAB /* CTPassword.bundle */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60C5206B26C5080A00C25DAB /* CYPWDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C5208526C5080D00C25DAB /* Build configuration list for PBXNativeTarget "CYPWDDemo" */;
+			buildPhases = (
+				E9375D34F5153E1A98EC297E /* [CP] Check Pods Manifest.lock */,
+				60C5206826C5080A00C25DAB /* Sources */,
+				60C5206926C5080A00C25DAB /* Frameworks */,
+				60C5206A26C5080A00C25DAB /* Resources */,
+				6A9EE420DB3BAF3FDDB03247 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYPWDDemo;
+			productName = CYPWDDemo;
+			productReference = 60C5206C26C5080A00C25DAB /* CYPWDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60C5206426C5080A00C25DAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					60C5206B26C5080A00C25DAB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 60C5206726C5080A00C25DAB /* Build configuration list for PBXProject "CYPWDDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60C5206326C5080A00C25DAB;
+			productRefGroup = 60C5206D26C5080A00C25DAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60C5206B26C5080A00C25DAB /* CYPWDDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60C5206A26C5080A00C25DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C5207F26C5080D00C25DAB /* LaunchScreen.storyboard in Resources */,
+				60C5207C26C5080D00C25DAB /* Assets.xcassets in Resources */,
+				60C5207A26C5080A00C25DAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A9EE420DB3BAF3FDDB03247 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CYPWDDemo/Pods-CYPWDDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CYPWDDemo/Pods-CYPWDDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CYPWDDemo/Pods-CYPWDDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9375D34F5153E1A98EC297E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CYPWDDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60C5206826C5080A00C25DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C520B626C51DB500C25DAB /* PageVC2.m in Sources */,
+				60C5207726C5080A00C25DAB /* ViewController.m in Sources */,
+				60C520B326C51DA500C25DAB /* PageVC1.m in Sources */,
+				60C5207126C5080A00C25DAB /* AppDelegate.m in Sources */,
+				60C5208226C5080D00C25DAB /* main.m in Sources */,
+				60C5207426C5080A00C25DAB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60C5207826C5080A00C25DAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C5207926C5080A00C25DAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60C5207D26C5080D00C25DAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C5207E26C5080D00C25DAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60C5208326C5080D00C25DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60C5208426C5080D00C25DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60C5208626C5080D00C25DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 188ED02EC562D8877BEEABE6 /* Pods-CYPWDDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 787G74GDS5;
+				INFOPLIST_FILE = CYPWDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guotailimin.CYPWDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60C5208726C5080D00C25DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F32C78EAA781968E19935E5 /* Pods-CYPWDDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 787G74GDS5;
+				INFOPLIST_FILE = CYPWDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = guotailimin.CYPWDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60C5206726C5080A00C25DAB /* Build configuration list for PBXProject "CYPWDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C5208326C5080D00C25DAB /* Debug */,
+				60C5208426C5080D00C25DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C5208526C5080D00C25DAB /* Build configuration list for PBXNativeTarget "CYPWDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C5208626C5080D00C25DAB /* Debug */,
+				60C5208726C5080D00C25DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60C5206426C5080A00C25DAB /* Project object */;
+}
