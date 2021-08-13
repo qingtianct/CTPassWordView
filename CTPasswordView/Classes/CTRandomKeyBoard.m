@@ -96,7 +96,7 @@
         [self addSubview:btn];
 //        [btn setBackgroundImage:[UIImage imageNamed:@"XLPasswordView.bundle/number_bg"] forState:UIControlStateNormal];
         NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-        NSURL *url = [bundle URLForResource:@"CTPasswordBundle" withExtension:@"bundle"];
+        NSURL *url = [bundle URLForResource:@"CTPassword" withExtension:@"bundle"];
         NSBundle *targetBundle = [NSBundle bundleWithURL:url];
         UIImage *image = [UIImage imageNamed:@"number_bg" inBundle:targetBundle compatibleWithTraitCollection:nil];
         
